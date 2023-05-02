@@ -1,0 +1,36 @@
+.dashboard-bandage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #f3f3f3;
+}
+
+.left-section-bandage {
+  width: 70%;
+}
+
+.left-section-bandage h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.left-section-bandage p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.right-section-bandage {
+  margin-top: 2rem;
+}
+
+.bandage-link {
+  text-decoration: none;
+  color: white;
+  background-color:#007bff; 
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}

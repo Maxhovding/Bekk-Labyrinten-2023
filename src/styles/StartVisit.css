@@ -1,0 +1,26 @@
+.start-visit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.start-visit-button {
+  font-size: 2rem;
+  padding: 20px 40px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-visit-button:hover {
+  background-color: #0056b3;
+}
+
+.start-visit-button:hover {
+  background-color: #0088cc;
+}

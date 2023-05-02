@@ -1,0 +1,190 @@
+div#root {
+  height: 100%; /* remove this line to see div.app is no more 100% height */
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  text-align: center;
+  background: url("../assets/space-background.svg") no-repeat center center
+    fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-logo-home {
+  max-width: 45rem;
+  pointer-events: none;
+  margin-bottom: 3rem;
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+.button {
+  width: 10em;
+  margin: 0.5rem;
+  padding: 0.6em;
+  text-decoration-line: none;
+  border: 2px solid #ddff57;
+  border-radius: 7px;
+  background-color: #ddff57;
+  color: black;
+  word-break: break-word;
+  font-weight: 400;
+  height: 1.25em;
+  font-size: 1.25rem;
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #3e8e41;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 85vh;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 40px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.left-section,
+.right-section {
+  width: 45%;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+
+button.not-completed {
+  background-color: #f44336;
+}
+
+button.completed {
+  background-color: #4caf50;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.top-right {
+  position: absolute;
+  top: 3vh;
+  right: 10vw;
+  color: #666;
+}
+
+.bottom-right {
+  position: absolute;
+  border: #61dafb;
+  bottom: 20px;
+  right: 20vw;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.mood-scale {
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(to right, red, yellow, lime);
+  cursor: pointer;
+}
+
+.start-visit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* viewport height */
+  width: 100vw; /* viewport width */
+}
+
+.start-visit-content {
+  text-align: center;
+}

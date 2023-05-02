@@ -1,0 +1,25 @@
+.tutorial-page {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-content {
+  margin-bottom: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back-link:hover {
+  background-color: #075ebb;
+}
